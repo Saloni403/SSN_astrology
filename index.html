@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="toppestnav">
+                <a href=""><i class="bi bi-telephone"></i> +918769875436</a>
+                <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
+            </div>
+            <hr style="color: #fff; margin: 0;">
+            <div class="bottomnav">
+                <div>
+                    <img src="web/images/logo.png" width="150" alt="">
+                </div>
+                <div>
+                    <ul class="d-lg-flex d-none">
+                        <li><a href="" class="active">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li class="maindropdown"><a href="javascript:void(0)">Services <i
+                                    class="bi bi-caret-right-fill"></i></a>
+                            <div class="maindropdown_sublist">
+                                <ul>
+                                    <li><a href="">Puja</a></li>
+                                    <li><a href="">Astrology</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href=""><i class="bi bi-person-fill"></i></a></li>
+
+                    </ul>
+                    <div class="d-lg-none d-flex gap-4">
+                        <i class="bi bi-person-fill"></i>
+                        <i class="bi bi-three-dots-vertical" onclick="showMenu()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+    
+    <!-- menu start -->
+    <div class="menu d-lg-none">
+        <div class="closingdiv">
+            <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+        </div>
+        <ul>
+            <li class="active">Home</li>
+            <li>About Us</li>
+            <li class="menudropdown" onclick="showMe()">Services <i class="bi bi-caret-right-fill"></i>
+                
+            </li>
+            <ul class="menudropdown_sublist">
+                    <li>Puja</li>
+                    <li>Astrology</li>
+                </ul>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <!-- menu end -->
+     <script>
+      let iconn =  document.querySelector(".menudropdown i")
+      let sublistt =  document.querySelector(".menudropdown_sublist")
+     function showMe(){
+iconn.classList.toggle("active")
+sublistt.classList.toggle("active")
+     }
+     </script>
+    <!-- banner start -->
+
+    <section>
+        <div class="bannerdiv pt-3">
+            <div class="container">
+                <div class="row d-flex flex-lg-row flex-column align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div>
+                            <h4>What's is Your Sign?</h4>
+                            <h1>Read Your Daily
+                                <br>
+                                Horoscope Today
+                            </h1>
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam eaque commodi nemo
+                                fugiat perferendis quam in esse eum nostrum praesentium.</span>
+
+                            <div class="mt-5">
+                                <a href="" class="button"><span>Appointment</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-3">
+                        <div class="position-relative d-flex align-items-center justify-content-center">
+                            <img src="web/images/hand_bg.png" class="bimg_hand_bg img-fluid" alt="">
+                            <img src="web/images/traditional-hawan-kund-removebg-preview.png" class="bimg_hand" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="web/images/shape.svg" class="shapeimg" alt="">
+        </div>
+    </section>
+
+    <!-- banner end -->
+
+    <!-- about us start -->
+    <section class="my-5">
+        <div class="container">
+            <div class="mainheadingdiv mb-3">
+                <h1 class="greentext mb-0">About</h1>
+                <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
+                    excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
+            </div>
+
+            <div class="row mt-5 d-flex align-items-center justify-content-center">
+                <div class="col-lg-6">
+                    <div class="position-relative rounded">
+                        <img src="web/images/about.jpg" class="img-fluid rounded" alt="">
+                        <div class="yrofexp">
+                            <h1 class="mb-0">9+</h1>
+                            <span class="mb-0">year of</span>
+                            <h2>Experience</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mt-lg-0 mt-3">
+                        <h1 class="greentext">Shree Sukhodaye Namah</h1>
+                        <div class="paradiv">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat Lorem ipsum dolor sit
+                                amet. earum accusamus magnam
+                                maiores minus? Magni qui alias adipisci modi officia.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odio fugit inventore
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt? voluptatem
+                                commodi aperiam eaque quaerat iure laborum ex.</p>
+                        </div>
+                        <div class="mt-4">
+                            <a href="" class="button "
+                                style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Read
+                                    More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us end -->
+
+    <!-- our services start -->
+    <section class="my-5">
+        <div class="container">
+            <div class="mainheadingdiv mb-3">
+                <h1 class="greentext mb-0">our services</h1>
+                <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
+                    excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center py-5 overflow-hidden">
+                <div class="col-xl-6">
+                    <div class="position-relative d-flex align-items-center justify-content-center">
+                        <img src="web/images/service_img2.png" class="img-fluid serviceimg1" alt="">
+                        <img src="web/images/service_img1.jpg" class="serviceimg2" alt="">
+                        <img src="web/images/service_shape.png" class="serviceimg3" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 d-flex flex-xl-column flex-md-row flex-column gap-2 mt-xl-0 mt-5">
+                    <div class="carddiv">
+                        <span class="as_icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                preserveAspectRatio="xMidYMid" width="71" height="71" viewBox="0 0 71 71">
+                                <path
+                                    d="M60.602,60.602 C53.897,67.307 44.982,71.000 35.500,71.000 C28.999,71.000 22.640,69.226 17.111,65.871 C16.265,65.358 15.429,64.802 14.626,64.218 C14.153,63.873 14.049,63.209 14.393,62.736 C14.738,62.262 15.402,62.158 15.875,62.503 C16.630,63.052 17.416,63.575 18.211,64.058 C23.409,67.211 29.387,68.878 35.500,68.878 C44.416,68.878 52.798,65.406 59.102,59.102 C65.407,52.798 68.878,44.416 68.878,35.500 C68.878,26.584 65.407,18.202 59.102,11.898 C52.798,5.593 44.416,2.121 35.500,2.121 C26.584,2.121 18.202,5.593 11.898,11.898 C5.593,18.202 2.121,26.584 2.121,35.500 C2.121,44.187 5.441,52.414 11.469,58.665 C11.876,59.087 11.864,59.759 11.442,60.165 C11.020,60.572 10.349,60.560 9.942,60.138 C3.531,53.489 -0.000,44.739 -0.000,35.500 C-0.000,26.017 3.693,17.103 10.398,10.398 C17.103,3.693 26.018,-0.000 35.500,-0.000 C44.982,-0.000 53.897,3.693 60.602,10.398 C67.307,17.103 71.000,26.017 71.000,35.500 C71.000,44.982 67.307,53.897 60.602,60.602 ZM27.588,8.676 C27.440,8.109 27.780,7.530 28.347,7.382 C32.783,6.227 37.443,6.129 41.922,7.090 C55.258,9.953 65.084,22.126 65.084,35.761 C65.084,51.930 51.930,65.084 35.760,65.084 C32.479,65.084 29.202,64.534 26.104,63.450 C20.792,61.592 16.067,58.180 12.613,53.740 C11.753,52.635 11.028,51.463 10.291,50.277 C9.858,49.580 9.529,49.050 9.243,48.273 C8.954,47.485 8.554,46.733 8.260,45.943 C7.053,42.691 6.437,39.229 6.437,35.761 C6.437,30.049 8.124,24.405 11.254,19.652 C14.116,15.305 18.131,11.754 22.798,9.450 C23.324,9.191 23.960,9.407 24.219,9.932 C24.478,10.457 24.263,11.094 23.738,11.353 C19.362,13.512 15.651,16.809 12.979,20.897 L25.467,20.897 L32.871,8.713 C31.523,8.856 30.188,9.095 28.882,9.435 C28.314,9.583 27.736,9.243 27.588,8.676 ZM38.344,8.681 L45.767,20.897 L58.532,20.897 C54.114,14.153 46.785,9.481 38.344,8.681 ZM59.662,23.139 C59.631,23.084 59.570,23.019 59.456,23.019 L47.056,23.019 L53.462,33.560 L59.658,23.378 C59.717,23.280 59.693,23.194 59.662,23.139 ZM62.963,35.761 C62.963,32.094 62.232,28.595 60.911,25.400 L54.703,35.602 L60.985,45.939 C62.259,42.793 62.963,39.358 62.963,35.761 ZM59.779,48.271 C59.809,48.216 59.834,48.130 59.774,48.033 L53.461,37.643 L46.920,48.391 L59.573,48.391 C59.687,48.391 59.748,48.326 59.779,48.271 ZM35.617,62.667 C35.678,62.667 35.762,62.647 35.819,62.553 L41.687,52.910 C41.991,52.410 42.644,52.251 43.144,52.556 C43.645,52.860 43.804,53.513 43.499,54.013 L38.116,62.859 C46.699,62.120 54.156,57.378 58.605,50.513 L28.089,50.513 L35.416,62.553 C35.473,62.647 35.557,62.667 35.617,62.667 ZM33.102,62.832 L25.605,50.513 L12.917,50.513 C17.313,57.297 24.646,62.008 33.102,62.832 ZM11.675,48.391 L24.314,48.391 L17.774,37.643 L11.476,48.007 C11.541,48.136 11.608,48.264 11.675,48.391 ZM10.491,25.676 C9.219,28.863 8.558,32.279 8.558,35.761 C8.558,39.250 9.220,42.587 10.422,45.655 L16.531,35.602 L10.491,25.676 ZM11.778,23.019 C11.756,23.019 11.736,23.023 11.718,23.028 C11.664,23.129 11.610,23.231 11.557,23.333 C11.563,23.348 11.567,23.362 11.577,23.378 L17.772,33.559 L24.178,23.019 L11.778,23.019 ZM19.014,35.601 L26.798,48.391 L44.477,48.391 L52.220,35.601 L44.574,23.019 L26.660,23.019 L19.014,35.601 ZM27.950,20.897 L43.285,20.897 L35.819,8.612 C35.806,8.590 35.791,8.573 35.775,8.559 C35.770,8.559 35.765,8.558 35.760,8.558 C35.659,8.558 35.557,8.562 35.455,8.563 C35.441,8.577 35.427,8.592 35.415,8.612 L27.950,20.897 ZM45.214,37.193 L37.193,45.214 C36.726,45.681 36.113,45.914 35.500,45.914 C34.887,45.914 34.274,45.681 33.807,45.214 L25.786,37.193 C24.852,36.259 24.852,34.740 25.786,33.806 L33.807,25.785 C34.740,24.852 36.259,24.852 37.193,25.785 L45.214,33.806 C46.148,34.740 46.148,36.259 45.214,37.193 ZM43.714,35.307 L35.693,27.285 C35.640,27.232 35.570,27.206 35.500,27.206 C35.430,27.206 35.360,27.232 35.307,27.285 L27.286,35.307 C27.179,35.413 27.179,35.586 27.286,35.693 L35.307,43.714 C35.413,43.821 35.587,43.821 35.693,43.714 L43.714,35.693 C43.821,35.586 43.821,35.413 43.714,35.307 ZM35.500,39.262 C33.426,39.262 31.738,37.574 31.738,35.500 C31.738,33.425 33.426,31.737 35.500,31.737 C37.574,31.737 39.262,33.425 39.262,35.500 C39.262,37.574 37.574,39.262 35.500,39.262 ZM35.500,33.859 C34.595,33.859 33.859,34.595 33.859,35.500 C33.859,36.404 34.595,37.140 35.500,37.140 C36.405,37.140 37.141,36.404 37.141,35.500 C37.141,34.595 36.405,33.859 35.500,33.859 Z"
+                                    class="cls-1"></path>
+                            </svg>
+                        </span>
+                        <h3>Puja</h3>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit aliquid nam
+                            laboriosam quae dicta incidunt adipisci ea hic aspernatur!</span>
+                        <div class="mt-4">
+                            <a href="" class="button "
+                                style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Read
+                                    More</span></a>
+                        </div>
+                        <img src="web/images/hand_bg.png" alt="">
+                    </div>
+
+                    <div class="carddiv">
+                        <span class="as_icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                preserveAspectRatio="xMidYMid" width="70" height="70" viewBox="0 0 70 70">
+                                <path
+                                    d="M70.000,67.742 L70.000,70.000 L-0.000,70.000 L-0.000,67.742 L10.161,67.742 L10.161,49.677 L7.903,49.677 L7.903,42.903 L12.419,42.903 L12.419,38.684 C12.419,36.677 13.766,34.891 15.695,34.341 L20.322,33.021 L20.322,31.003 C18.941,29.761 18.064,27.967 18.064,25.967 L18.064,23.710 C18.064,19.973 21.103,16.935 24.839,16.935 C28.575,16.935 31.613,19.973 31.613,23.710 L31.613,25.967 C31.613,27.968 30.737,29.762 29.355,31.003 L29.355,33.020 L33.983,34.341 C35.814,34.864 37.107,36.505 37.233,38.387 L43.565,38.387 L49.624,32.327 C47.025,31.379 45.161,28.890 45.161,25.967 L45.161,23.710 C45.161,19.973 48.199,16.935 51.935,16.935 C55.671,16.935 58.710,19.973 58.710,23.710 L58.710,25.967 C58.710,27.939 57.858,29.710 56.510,30.949 C57.866,31.656 58.710,33.034 58.710,34.569 L58.710,36.129 L63.226,36.129 L63.226,50.806 C63.226,54.742 60.330,58.006 56.560,58.602 L57.473,67.742 L70.000,67.742 ZM52.957,67.742 L55.204,67.742 L54.301,58.709 L52.054,58.709 L52.957,67.742 ZM44.032,67.742 L50.688,67.742 L49.785,58.709 L44.032,58.709 L44.032,67.742 ZM36.560,67.742 L35.431,65.484 L18.762,65.484 L17.633,67.742 L36.560,67.742 ZM12.419,51.935 L15.806,51.935 L15.806,54.193 L12.419,54.193 L12.419,67.742 L15.108,67.742 L17.366,63.225 L36.827,63.225 L39.085,67.742 L41.774,67.742 L41.774,54.193 L18.064,54.193 L18.064,51.935 L41.774,51.935 L41.774,49.677 L12.419,49.677 L12.419,51.935 ZM10.161,45.161 L10.161,47.419 L45.161,47.419 L45.161,45.161 L10.161,45.161 ZM29.355,23.710 C29.355,21.219 27.329,19.193 24.839,19.193 C22.348,19.193 20.322,21.219 20.322,23.710 L20.322,25.967 C20.322,28.458 22.348,30.484 24.839,30.484 C27.329,30.484 29.355,28.458 29.355,25.967 L29.355,23.710 ZM22.581,32.347 L22.581,33.559 C22.861,33.991 23.639,35.000 24.839,35.000 C26.039,35.000 26.817,33.991 27.097,33.559 L27.097,32.347 C26.389,32.597 25.631,32.742 24.839,32.742 C24.046,32.742 23.288,32.597 22.581,32.347 ZM33.363,36.512 L28.711,35.183 C28.057,36.037 26.782,37.258 24.839,37.258 C22.895,37.258 21.621,36.037 20.966,35.184 L16.315,36.513 C15.352,36.788 14.677,37.680 14.677,38.684 L14.677,42.902 L30.692,42.902 C30.565,42.547 30.484,42.170 30.484,41.773 C30.484,39.906 32.004,38.386 33.871,38.386 L34.951,38.386 C34.831,37.511 34.228,36.759 33.363,36.512 ZM44.500,40.645 L33.871,40.645 C33.248,40.645 32.742,41.151 32.742,41.774 C32.742,42.397 33.248,42.903 33.871,42.903 L45.823,42.903 L53.823,34.903 C54.059,34.667 54.193,34.341 54.193,34.008 C54.193,33.309 53.626,32.742 52.928,32.742 C52.595,32.742 52.268,32.876 52.032,33.112 L44.500,40.645 ZM56.452,23.710 C56.452,21.219 54.426,19.193 51.935,19.193 C49.445,19.193 47.419,21.219 47.419,23.710 L47.419,25.967 C47.419,28.458 49.445,30.484 51.935,30.484 C54.426,30.484 56.452,28.458 56.452,25.967 L56.452,23.710 ZM56.452,34.569 C56.452,34.487 56.429,34.413 56.419,34.334 C56.342,35.144 55.998,35.921 55.420,36.499 L47.419,44.500 L47.419,49.677 L44.032,49.677 L44.032,51.935 L53.064,51.935 C54.932,51.935 56.452,50.416 56.452,48.548 L56.452,34.569 ZM60.968,50.806 L60.968,38.387 L58.710,38.387 L58.710,48.548 C58.710,51.661 56.177,54.193 53.064,54.193 L44.032,54.193 L44.032,56.451 L55.323,56.451 C58.435,56.451 60.968,53.919 60.968,50.806 ZM35.000,18.216 L35.000,11.290 L27.097,11.290 L27.097,-0.000 L54.193,-0.000 L54.193,11.290 L43.312,11.290 L35.000,18.216 ZM51.935,2.258 L29.355,2.258 L29.355,9.032 L37.258,9.032 L37.258,13.396 L42.495,9.032 L51.935,9.032 L51.935,2.258 ZM36.129,4.516 L45.161,4.516 L45.161,6.774 L36.129,6.774 L36.129,4.516 ZM49.677,6.774 L47.419,6.774 L47.419,4.516 L49.677,4.516 L49.677,6.774 ZM31.613,4.516 L33.871,4.516 L33.871,6.774 L31.613,6.774 L31.613,4.516 Z"
+                                    class="cls-1"></path>
+                            </svg>
+                        </span>
+                        <h3>Astrology</h3>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit aliquid nam
+                            laboriosam quae dicta incidunt adipisci ea hic aspernatur!</span>
+                        <div class="mt-4">
+                            <a href="" class="button "
+                                style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Read
+                                    More</span></a>
+                        </div>
+                        <img src="web/images/hand_bg.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- our services end -->
+
+    <!-- our packages start -->
+    <section class="my-5">
+        <div class="container">
+            <div class="mainheadingdiv mb-3">
+                <h1 class="greentext mb-0">Our Packages</h1>
+                <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
+                    excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 ">
+                    <div class="ourpackagescard">
+                        <h1 class="mb-0 text-center py-2">Silver Plan</h1>
+                        <div>
+                            <img src="web/images/package1.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h3>&#8377; 1800/-</h3>
+                        <div class="ourpackagescard_desc p-2">
+                            <ol>
+                                <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-lg-0 mt-4">
+                    <div class="ourpackagescard">
+                        <h1 class="mb-0 text-center py-2">Gold Plan</h1>
+                        <div>
+                            <img src="web/images/package1.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h3>&#8377; 3300/-</h3>
+                        <div class="ourpackagescard_desc p-2">
+                            <ol>
+                                <li><i class="bi bi-caret-right-fill"></i> 15 monthes.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Pooja for two.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> 12 free consultation.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-lg-0 mt-4">
+                    <div class="ourpackagescard">
+                        <h1 class="mb-0 text-center py-2">Platinum Plan</h1>
+                        <div>
+                            <img src="web/images/package1.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h3>&#8377; 4900/-</h3>
+                        <div class="ourpackagescard_desc p-2">
+                            <ol>
+                                <li><i class="bi bi-caret-right-fill"></i> 18 monthes.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Pooja for three.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> 24 free consultation.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- our packages end -->
+
+    <!-- testimonial start -->
+    <section class="my-5">
+        <div class="container">
+            <div class="mainheadingdiv mb-3">
+                <h1 class="greentext mb-0">What My Client Say</h1>
+                <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
+                    excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
+            </div>
+            <div class="row mt-5 d-flex align-items-center justify-content-center">
+                <div class="col-md-6 border-end">
+                    <div class="client-circle-wrap">
+                        <div class="clientimgdiv">
+                            <img src="web/images/c3.jpg" class="clientimg" alt="">
+                        </div>
+                        <div class="clientimgdiv">
+                            <img src="web/images/c3.jpg" class="clientimg" alt="">
+                        </div>
+                        <div class="clientimgdiv">
+                            <img src="web/images/c3.jpg" class="clientimg" alt="">
+                        </div>
+                        <div class="clientimgdiv">
+                            <img src="web/images/c3.jpg" class="clientimg" alt="">
+                        </div>
+                        <div class="clientimgdiv">
+                            <img src="web/images/c3.jpg" class="clientimg" alt="">
+                        </div>
+                        <div class="clientimgdiv">
+                            <img src="web/images/c3.jpg" class="clientimg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <div class="overflow-hidden">
+                        <div class="test_desc position-relative">
+                            <div>
+                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                    blanditiis beatae,
+                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                                <h6>
+                                    Lokesh Verma1 - Meerut
+                                </h6>
+                            </div>
+
+                            <img src="web/images/hand_bg.png" width="180" alt="">
+                        </div>
+                        <div class="test_desc position-relative">
+                            <div>
+                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                    blanditiis beatae,
+                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                                <h6>
+                                    Lokesh Verma2 - Meerut
+                                </h6>
+                            </div>
+
+                            <img src="web/images/hand_bg.png" width="180" alt="">
+                        </div>
+                        <div class="test_desc position-relative">
+                            <div>
+                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                    blanditiis beatae,
+                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                                <h6>
+                                    Lokesh Verma3 - Meerut
+                                </h6>
+                            </div>
+
+                            <img src="web/images/hand_bg.png" width="180" alt="">
+                        </div>
+                        <div class="test_desc position-relative">
+                            <div>
+                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                    blanditiis beatae,
+                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                                <h6>
+                                    Lokesh Verma4 - Meerut
+                                </h6>
+                            </div>
+
+                            <img src="web/images/hand_bg.png" width="180" alt="">
+                        </div>
+                        <div class="test_desc position-relative">
+                            <div>
+                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                    blanditiis beatae,
+                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                                <h6>
+                                    Lokesh Verma5 - Meerut
+                                </h6>
+                            </div>
+
+                            <img src="web/images/hand_bg.png" width="180" alt="">
+                        </div>
+                        <div class="test_desc position-relative">
+                            <div>
+                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                    blanditiis beatae,
+                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                                <h6>
+                                    Lokesh Verma6 - Meerut
+                                </h6>
+                            </div>
+
+                            <img src="web/images/hand_bg.png" width="180" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end -->
+
+    <!-- footer start -->
+    <footer class="bg-black ">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center text-center">
+                    <div class="pe-lg-5">
+                        <img src="web/images/logo.png" width="200" alt="">
+                        <br>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-4">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Puja</a></li>
+                            <li><a href="">Astrology</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-4">
+                    <div>
+                        <h3>Contact Us</h3>
+                        <div class="d-flex flex-column">
+                            <a href=""><i class="bi bi-telephone"></i> +918769875436</a>
+                            <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
+                            <a href=""><i class="bi bi-geo-alt"></i> dda flat, kalkaji.</a>
+                        </div>
+                        <div class="iconss mt-4 d-flex gap-4">
+                            <i class="bi bi-whatsapp"></i>
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="color: #fff;">
+        <div class="text-center p-3 pt-0">
+            <span>© 2026 Shri Sukhodayaya Namah. All Right Reserved. | <a
+                    href="https://tssgtech.com/">Tssg-Tech</a></span>
+        </div>
+        <img src="web/images/shape.svg" class="footerimg" alt="">
+    </footer>
+
+    <!-- footer end -->
+
+    <script src="web/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        let test_desc = document.querySelectorAll(".test_desc")
+        let clientimgdiv = document.querySelectorAll(".clientimgdiv")
+        test_desc.forEach((desc, i) => {
+            desc.style.display = i === 0 ? "block" : "none";
+        });
+
+        clientimgdiv.forEach((img, index) => {
+
+            img.addEventListener("click", () => {
+                test_desc.forEach(desc => {
+                    desc.style.display = "none"
+                })
+                clientimgdiv.forEach(img => { img.classList.remove("active") })
+                test_desc[index].style.display = "block"
+                img.classList.add("active");
+            })
+        })
+    </script>
+</body>
+
+</html>
