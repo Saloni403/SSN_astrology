@@ -14,21 +14,29 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <!-- header start -->
+    <div class="toppestnav">
+        <div class="container">
+            <a href=""><i class="bi bi-telephone"></i> +918769875436</a>
+            <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
+        </div>
+    </div>
+    <hr style="color: rgba(255, 255, 255, 1); margin: 0;">
     <header>
         <div class="container">
-            <div class="toppestnav">
-                <a href=""><i class="bi bi-telephone"></i> +918769875436</a>
-                <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
-            </div>
-            <hr style="color: #fff; margin: 0;">
             <div class="bottomnav">
                 <div>
-                    <img src="web/images/logo.png" width="150" alt="">
+                    <img src="web/images/sukho-removebg-preview.png" width="100" alt="">
                 </div>
                 <div>
                     <ul class="d-lg-flex d-none">
@@ -58,7 +66,7 @@
     </header>
 
     <!-- header end -->
-    
+
     <!-- menu start -->
     <div class="menu d-lg-none">
         <div class="closingdiv">
@@ -68,25 +76,20 @@
             <li class="active">Home</li>
             <li>About Us</li>
             <li class="menudropdown" onclick="showMe()">Services <i class="bi bi-caret-right-fill"></i>
-                
+
             </li>
             <ul class="menudropdown_sublist">
-                    <li>Puja</li>
-                    <li>Astrology</li>
-                </ul>
+                <li>Puja</li>
+                <li>Astrology</li>
+            </ul>
             <li>Gallery</li>
             <li>Contact Us</li>
         </ul>
     </div>
     <!-- menu end -->
-     <script>
-      let iconn =  document.querySelector(".menudropdown i")
-      let sublistt =  document.querySelector(".menudropdown_sublist")
-     function showMe(){
-iconn.classList.toggle("active")
-sublistt.classList.toggle("active")
-     }
-     </script>
+    <script>
+
+    </script>
     <!-- banner start -->
 
     <section>
@@ -135,7 +138,7 @@ sublistt.classList.toggle("active")
             <div class="row mt-5 d-flex align-items-center justify-content-center">
                 <div class="col-lg-6">
                     <div class="position-relative rounded">
-                        <img src="web/images/about.jpg" class="img-fluid rounded" alt="">
+                        <img src="web/images/aboutbannerimg.jpg" class="img-fluid rounded border border-warning" alt="">
                         <div class="yrofexp">
                             <h1 class="mb-0">9+</h1>
                             <span class="mb-0">year of</span>
@@ -146,7 +149,7 @@ sublistt.classList.toggle("active")
                 <div class="col-lg-6">
                     <div class="mt-lg-0 mt-3">
                         <h1 class="greentext">Shree Sukhodaye Namah</h1>
-                        <div class="paradiv">
+                        <div class="paradiv mt-3">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat Lorem ipsum dolor sit
                                 amet. earum accusamus magnam
                                 maiores minus? Magni qui alias adipisci modi officia.</p>
@@ -179,8 +182,8 @@ sublistt.classList.toggle("active")
                 <div class="col-xl-6">
                     <div class="position-relative d-flex align-items-center justify-content-center">
                         <img src="web/images/service_img2.png" class="img-fluid serviceimg1" alt="">
-                        <img src="web/images/service_img1.jpg" class="serviceimg2" alt="">
-                        <img src="web/images/service_shape.png" class="serviceimg3" alt="">
+                        <img src="web/images/aboutbannerimg.jpg" class="serviceimg2" alt="">
+                        <!-- <img src="web/images/service_shape.png" class="serviceimg3" alt=""> -->
                     </div>
                 </div>
                 <div class="col-xl-6 d-flex flex-xl-column flex-md-row flex-column gap-2 mt-xl-0 mt-5">
@@ -241,12 +244,12 @@ sublistt.classList.toggle("active")
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
                     excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
             </div>
-            <div class="row mt-5">
-                <div class="col-lg-4 ">
+            <div class="row mt-1 gy-4">
+                <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h1 class="mb-0 text-center py-2">Silver Plan</h1>
+                        <h1 class="mb-0 text-center py-2">For Kids</h1>
                         <div>
-                            <img src="web/images/package1.jpg" class="img-fluid" alt="">
+                            <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
 
                         <h3>&#8377; 1800/-</h3>
@@ -261,11 +264,11 @@ sublistt.classList.toggle("active")
                     </div>
                 </div>
 
-                <div class="col-lg-4 mt-lg-0 mt-4">
+                <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h1 class="mb-0 text-center py-2">Gold Plan</h1>
+                        <h1 class="mb-0 text-center py-2">For Family</h1>
                         <div>
-                            <img src="web/images/package1.jpg" class="img-fluid" alt="">
+                            <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
 
                         <h3>&#8377; 3300/-</h3>
@@ -280,11 +283,68 @@ sublistt.classList.toggle("active")
                     </div>
                 </div>
 
-                <div class="col-lg-4 mt-lg-0 mt-4">
+                <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h1 class="mb-0 text-center py-2">Platinum Plan</h1>
+                        <h1 class="mb-0 text-center py-2">For Business</h1>
                         <div>
-                            <img src="web/images/package1.jpg" class="img-fluid" alt="">
+                            <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h3>&#8377; 4900/-</h3>
+                        <div class="ourpackagescard_desc p-2">
+                            <ol>
+                                <li><i class="bi bi-caret-right-fill"></i> 18 monthes.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Pooja for three.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> 24 free consultation.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="ourpackagescard">
+                        <h1 class="mb-0 text-center py-2">For Health</h1>
+                        <div>
+                            <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h3>&#8377; 1800/-</h3>
+                        <div class="ourpackagescard_desc p-2">
+                            <ol>
+                                <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="ourpackagescard">
+                        <h1 class="mb-0 text-center py-2">Starting Plan</h1>
+                        <div>
+                            <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h3>&#8377; 3300/-</h3>
+                        <div class="ourpackagescard_desc p-2">
+                            <ol>
+                                <li><i class="bi bi-caret-right-fill"></i> 15 monthes.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Pooja for two.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> 12 free consultation.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="ourpackagescard">
+                        <h1 class="mb-0 text-center py-2">Popular Plan</h1>
+                        <div>
+                            <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
 
                         <h3>&#8377; 4900/-</h3>
@@ -313,103 +373,94 @@ sublistt.classList.toggle("active")
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
                     excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
             </div>
-            <div class="row mt-5 d-flex align-items-center justify-content-center">
-                <div class="col-md-6 border-end">
-                    <div class="client-circle-wrap">
-                        <div class="clientimgdiv">
-                            <img src="web/images/c3.jpg" class="clientimg" alt="">
+            <div class="row mt-5 autoplay">
+                <div class="col-md-3 px-3">
+                    <div class="test_desc">
+                        <div>
+                            <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                blanditiis beatae,
+                                assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                            <h6>
+                                Lokesh Verma1 - Meerut
+                            </h6>
                         </div>
-                        <div class="clientimgdiv">
-                            <img src="web/images/c3.jpg" class="clientimg" alt="">
-                        </div>
-                        <div class="clientimgdiv">
-                            <img src="web/images/c3.jpg" class="clientimg" alt="">
-                        </div>
-                        <div class="clientimgdiv">
-                            <img src="web/images/c3.jpg" class="clientimg" alt="">
-                        </div>
-                        <div class="clientimgdiv">
-                            <img src="web/images/c3.jpg" class="clientimg" alt="">
-                        </div>
-                        <div class="clientimgdiv">
-                            <img src="web/images/c3.jpg" class="clientimg" alt="">
-                        </div>
+
+                        <img src="web/images/hand_bg.png" width="180" alt="">
                     </div>
                 </div>
-                <div class="col-md-6 mt-md-0 mt-3">
-                    <div class="overflow-hidden">
-                        <div class="test_desc position-relative">
-                            <div>
-                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
-                                    blanditiis beatae,
-                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
-                                <h6>
-                                    Lokesh Verma1 - Meerut
-                                </h6>
-                            </div>
 
-                            <img src="web/images/hand_bg.png" width="180" alt="">
+                <div class="col-md-3 px-3">
+                    <div class="test_desc">
+                        <div>
+                            <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                blanditiis beatae,
+                                assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                            <h6>
+                                Lokesh Verma1 - Meerut
+                            </h6>
                         </div>
-                        <div class="test_desc position-relative">
-                            <div>
-                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
-                                    blanditiis beatae,
-                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
-                                <h6>
-                                    Lokesh Verma2 - Meerut
-                                </h6>
-                            </div>
 
-                            <img src="web/images/hand_bg.png" width="180" alt="">
-                        </div>
-                        <div class="test_desc position-relative">
-                            <div>
-                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
-                                    blanditiis beatae,
-                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
-                                <h6>
-                                    Lokesh Verma3 - Meerut
-                                </h6>
-                            </div>
+                        <img src="web/images/hand_bg.png" width="180" alt="">
+                    </div>
+                </div>
 
-                            <img src="web/images/hand_bg.png" width="180" alt="">
+                <div class="col-md-3 px-3">
+                    <div class="test_desc">
+                        <div>
+                            <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                blanditiis beatae,
+                                assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                            <h6>
+                                Lokesh Verma1 - Meerut
+                            </h6>
                         </div>
-                        <div class="test_desc position-relative">
-                            <div>
-                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
-                                    blanditiis beatae,
-                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
-                                <h6>
-                                    Lokesh Verma4 - Meerut
-                                </h6>
-                            </div>
 
-                            <img src="web/images/hand_bg.png" width="180" alt="">
-                        </div>
-                        <div class="test_desc position-relative">
-                            <div>
-                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
-                                    blanditiis beatae,
-                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
-                                <h6>
-                                    Lokesh Verma5 - Meerut
-                                </h6>
-                            </div>
+                        <img src="web/images/hand_bg.png" width="180" alt="">
+                    </div>
+                </div>
 
-                            <img src="web/images/hand_bg.png" width="180" alt="">
+                <div class="col-md-3 px-3">
+                    <div class="test_desc">
+                        <div>
+                            <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                blanditiis beatae,
+                                assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                            <h6>
+                                Lokesh Verma1 - Meerut
+                            </h6>
                         </div>
-                        <div class="test_desc position-relative">
-                            <div>
-                                <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
-                                    blanditiis beatae,
-                                    assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
-                                <h6>
-                                    Lokesh Verma6 - Meerut
-                                </h6>
-                            </div>
 
-                            <img src="web/images/hand_bg.png" width="180" alt="">
+                        <img src="web/images/hand_bg.png" width="180" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-3 px-3">
+                    <div class="test_desc">
+                        <div>
+                            <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                blanditiis beatae,
+                                assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                            <h6>
+                                Lokesh Verma1 - Meerut
+                            </h6>
                         </div>
+
+                        <img src="web/images/hand_bg.png" width="180" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-3 px-3">
+                    <div class="test_desc">
+                        <div>
+                            <span>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque amet
+                                blanditiis beatae,
+                                assumenda repudiandae accusantium totam odit nihil nemo adipisci."</span>
+                            <h6>
+                                Lokesh Verma1 - Meerut
+                            </h6>
+                        </div>
+
+                        <img src="web/images/hand_bg.png" width="180" alt="">
                     </div>
                 </div>
             </div>
@@ -417,53 +468,110 @@ sublistt.classList.toggle("active")
     </section>
     <!-- testimonial end -->
 
-    <!-- footer start -->
-    <footer class="bg-black ">
-        <div class="container pb-3">
-            <div class="row">
-                <div class="col-lg-4 d-flex align-items-center justify-content-center text-center">
-                    <div class="pe-lg-5">
-                        <img src="web/images/logo.png" width="200" alt="">
-                        <br>
-                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+    <!-- brahman bhoj -->
+    <section class="brahmanbhoj py-3">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-6">
+                    <div>
+                        <h1 class="greentext">Donate towards Brahman Bhoj</h1>
+                        <p>Brahman Bhoj is a unique ritual of feeding Brahmins which is
+                            considered Highly Auspicious. It is practised on various occasions such as Token of
+                            Gratitude, childbirth, upanayana (the sacred thread ceremony), marriage, Pitrupaksh, Death
+                            and many more.</p>
+                        <p>Those who wish to Contribute can make the donations on the link given
+                            below & become part of this Auspicious Opportunity.</p>
+
+                        <div class="mt-4">
+                            <a href="" class="button "
+                                style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Donate
+                                    Now</span></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-4">
-                    <div>
-                        <h3>Quick Links</h3>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Puja</a></li>
-                            <li><a href="">Astrology</a></li>
-                            <li><a href="">Gallery</a></li>
-                            <li><a href="">Contact Us</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-4">
-                    <div>
-                        <h3>Contact Us</h3>
-                        <div class="d-flex flex-column">
-                            <a href=""><i class="bi bi-telephone"></i> +918769875436</a>
-                            <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
-                            <a href=""><i class="bi bi-geo-alt"></i> dda flat, kalkaji.</a>
-                        </div>
-                        <div class="iconss mt-4 d-flex gap-4">
-                            <i class="bi bi-whatsapp"></i>
-                            <i class="bi bi-facebook"></i>
-                        </div>
+                <div class="col-lg-6 ">
+                    <div class="mt-lg-0 mt-3">
+                        <img src="web/images/Brahman-Bhoj.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <hr style="color: #fff;">
-        <div class="text-center p-3 pt-0">
-            <span>© 2026 Shri Sukhodayaya Namah. All Right Reserved. | <a
-                    href="https://tssgtech.com/">Tssg-Tech</a></span>
+    </section>
+
+
+    <!-- footer start -->
+    <footer>
+        <div class="footerdiv">
+            <div class="mainheadingdiv mb-3 pt-5">
+                <h1 class="mb-0 pt-4">We're also here to teach you</h1>
+                <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe
+                    maiores provident
+                    excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
+                <div class="mt-4">
+                    <a href="" class="button"
+                        style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Enroll
+                            Now</span></a>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+
+                <div class="row gy-4">
+                    <div class="col-lg-3 d-flex align-items-center justify-content-center text-center">
+                        <div class="">
+                            <img src="web/images/sukho-removebg-preview.png" width="150" alt="">
+                            <br>
+                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div>
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Gallery</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div>
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="">Puja</a></li>
+                                <li><a href="">Astrology</a></li>
+                                <li><a href="">Career</a></li>
+                                <li><a href="">Donation</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div>
+                            <h3>Contact Us</h3>
+                            <div class="d-flex flex-column">
+                                <a href=""><i class="bi bi-telephone"></i> +918769875436</a>
+                                <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
+                                <a href=""><i class="bi bi-geo-alt"></i> dda flat, kalkaji.</a>
+                            </div>
+                            <div class="iconss mt-4 d-flex gap-4">
+                                <i class="bi bi-whatsapp"></i>
+                                <i class="bi bi-facebook"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center p-3 pt-0">
+                <span>© 2026 Shri Sukhodayaya Namah. All Right Reserved. | <a
+                        href="https://tssgtech.com/">Tssg-Tech</a></span>
+            </div>
+            <img src="web/images/shape.svg" class="footerimg" alt="">
         </div>
-        <img src="web/images/shape.svg" class="footerimg" alt="">
     </footer>
 
     <!-- footer end -->
@@ -472,25 +580,40 @@ sublistt.classList.toggle("active")
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script>
-        let test_desc = document.querySelectorAll(".test_desc")
-        let clientimgdiv = document.querySelectorAll(".clientimgdiv")
-        test_desc.forEach((desc, i) => {
-            desc.style.display = i === 0 ? "block" : "none";
-        });
-
-        clientimgdiv.forEach((img, index) => {
-
-            img.addEventListener("click", () => {
-                test_desc.forEach(desc => {
-                    desc.style.display = "none"
-                })
-                clientimgdiv.forEach(img => { img.classList.remove("active") })
-                test_desc[index].style.display = "block"
-                img.classList.add("active");
-            })
-        })
-    </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.autoplay').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  dots:false,
+  arrows: false,
+ responsive:[
+    {
+         breakpoint: 1400,
+      settings: {
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 992, 
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 576, 
+      settings: {
+        slidesToShow: 1
+      }
+    }
+ ]
+});
+</script>
 </body>
 
 </html>
