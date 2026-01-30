@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sukhoodaya | Home </title>
+    <link rel="icon" type="image/png" href="web/images/sukho-removebg-preview.png">
     <link rel="stylesheet" href="web/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -36,7 +37,7 @@
         <div class="container">
             <div class="bottomnav">
                 <div>
-                    <img src="web/images/sukho-removebg-preview.png" width="100" alt="">
+                    <img src="web/images/sukho-removebg-preview.png" width="100" onclick="location.href='index.html'" class="cursor" alt="">
                 </div>
                 <div>
                     <ul class="d-lg-flex d-none">
@@ -53,7 +54,7 @@
                         </li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href=""><i class="bi bi-person-fill"></i></a></li>
+                        <li><a href="login.html"><i class="bi bi-person-fill"></i></a></li>
 
                     </ul>
                     <div class="d-lg-none d-flex gap-4">
@@ -73,17 +74,17 @@
             <i class="bi bi-x-circle" onclick="hideMenu()"></i>
         </div>
         <ul>
-            <li class="active">Home</li>
-            <li>About Us</li>
-            <li class="menudropdown" onclick="showMe()">Services <i class="bi bi-caret-right-fill"></i>
+            <li onclick="location.href='index.html'"  class="active">Home</li>
+            <li onclick="location.href='about.html'" >About Us</li>
+            <li onclick="location.href='javascript.void(0)'"  class="menudropdown" onclick="showMe()">Services <i class="bi bi-caret-right-fill"></i>
 
             </li>
             <ul class="menudropdown_sublist">
-                <li>Puja</li>
-                <li>Astrology</li>
+                <li onclick="location.href='puja.html'">Puja</li>
+                <li onclick="location.href='astrology.html'">Astrology</li>
             </ul>
-            <li>Gallery</li>
-            <li>Contact Us</li>
+            <li onclick="location.href='gallery.html'">Gallery</li>
+            <li onclick="location.href='contact.html'">Contact Us</li>
         </ul>
     </div>
     <!-- menu end -->
@@ -105,7 +106,7 @@
                                 fugiat perferendis quam in esse eum nostrum praesentium.</span>
 
                             <div class="mt-5">
-                                <a href="" class="button"><span>Appointment</span></a>
+                                <a href="appointment.html" class="button"><span>Appointment</span></a>
                             </div>
                         </div>
                     </div>
@@ -146,7 +147,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="mt-lg-0 mt-3">
-                        <h1 class="greentext">Shree Sukhodaye Namah</h1>
+                        <h1 class="greentext">Sukhoodaya </h1>
                         <div class="paradiv mt-3">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat Lorem ipsum dolor sit
                                 amet. earum accusamus magnam
@@ -156,7 +157,7 @@
                                 commodi aperiam eaque quaerat iure laborum ex.</p>
                         </div>
                         <div class="mt-4">
-                            <a href="" class="button "
+                            <a href="about.html" class="button "
                                 style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Read
                                     More</span></a>
                         </div>
@@ -177,7 +178,7 @@
                     excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
             </div>
             <div class="row d-flex align-items-center justify-content-center py-5 overflow-hidden">
-                <div class="col-xl-6">
+                <div class="col-xl-6 d-flex align-items-center justify-content-center">
                     <div class="position-relative d-flex align-items-center justify-content-center">
                         <img src="web/images/service_img2.png" class="img-fluid serviceimg1" alt="">
                         <img src="web/images/aboutbannerimg.jpg" class="serviceimg2" alt="">
@@ -185,7 +186,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 d-flex flex-xl-column flex-md-row flex-column gap-2 mt-xl-0 mt-5">
-                    <div class="carddiv">
+                    <div class="carddiv" onclick="location.href='puja.html'">
                         <span class="as_icons">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 preserveAspectRatio="xMidYMid" width="71" height="71" viewBox="0 0 71 71">
@@ -198,14 +199,14 @@
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit aliquid nam
                             laboriosam quae dicta incidunt adipisci ea hic aspernatur!</span>
                         <div class="mt-4">
-                            <a href="" class="button "
+                            <a href="puja.html" class="button "
                                 style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Read
                                     More</span></a>
                         </div>
                         <img src="web/images/hand_bg.png" alt="">
                     </div>
 
-                    <div class="carddiv">
+                    <div class="carddiv" onclick="location.href='astrology.html'">
                         <span class="as_icons">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 preserveAspectRatio="xMidYMid" width="70" height="70" viewBox="0 0 70 70">
@@ -218,7 +219,7 @@
                         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit aliquid nam
                             laboriosam quae dicta incidunt adipisci ea hic aspernatur!</span>
                         <div class="mt-4">
-                            <a href="" class="button "
+                            <a href="astrology.html" class="button "
                                 style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Read
                                     More</span></a>
                         </div>
@@ -254,7 +255,7 @@
                         <div class="ourpackagescard_desc p-2">
                             <ol>
                                 <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
-                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> puja for one.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
                             </ol>
@@ -267,7 +268,7 @@
 
                 <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h3 class="mb-0 text-center py-2">For Kids</h3>
+                        <h3 class="mb-0 text-center py-2">For Family</h3>
                         <div>
                             <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
@@ -276,7 +277,7 @@
                         <div class="ourpackagescard_desc p-2">
                             <ol>
                                 <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
-                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> puja for one.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
                             </ol>
@@ -289,7 +290,7 @@
 
                 <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h3 class="mb-0 text-center py-2">For Kids</h3>
+                        <h3 class="mb-0 text-center py-2">For Business</h3>
                         <div>
                             <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
@@ -298,7 +299,7 @@
                         <div class="ourpackagescard_desc p-2">
                             <ol>
                                 <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
-                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> puja for one.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
                             </ol>
@@ -311,7 +312,7 @@
 
                 <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h3 class="mb-0 text-center py-2">For Kids</h3>
+                        <h3 class="mb-0 text-center py-2">Popular Plans</h3>
                         <div>
                             <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
@@ -320,7 +321,7 @@
                         <div class="ourpackagescard_desc p-2">
                             <ol>
                                 <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
-                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> puja for one.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
                             </ol>
@@ -333,7 +334,7 @@
 
                 <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h3 class="mb-0 text-center py-2">For Kids</h3>
+                        <h3 class="mb-0 text-center py-2">For Health</h3>
                         <div>
                             <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
@@ -342,7 +343,7 @@
                         <div class="ourpackagescard_desc p-2">
                             <ol>
                                 <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
-                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> puja for one.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
                             </ol>
@@ -355,7 +356,7 @@
 
                 <div class="col-lg-4 col-sm-6 ">
                     <div class="ourpackagescard">
-                        <h3 class="mb-0 text-center py-2">For Kids</h3>
+                        <h3 class="mb-0 text-center py-2">Common Plan</h3>
                         <div>
                             <img src="web/images/aboutbannerimg.jpg" class="img-fluid" alt="">
                         </div>
@@ -364,7 +365,7 @@
                         <div class="ourpackagescard_desc p-2">
                             <ol>
                                 <li><i class="bi bi-caret-right-fill"></i> 11 monthes.</li>
-                                <li><i class="bi bi-caret-right-fill"></i> Pooja for one.</li>
+                                <li><i class="bi bi-caret-right-fill"></i> puja for one.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> Rudhra Abhisak.</li>
                                 <li><i class="bi bi-caret-right-fill"></i> 6 free consultation.</li>
                             </ol>
@@ -381,15 +382,20 @@
     <!-- our packages end -->
 
     <!-- testimonial start -->
+     <style>
+        .slick-dots{
+    bottom: -35px;
+}
+     </style>
     <section class="my-5">
         <div class="container">
             <div class="mainheadingdiv mb-3">
-                <h1 class="greentext mb-0">What My Client Say</h1>
+                <h1 class="greentext mb-0">What Our Client Say</h1>
                 <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
                     excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
             </div>
-            <div class="row mt-5 autoplay">
+            <div class="row my-5 autoplay">
                 <div class="col-md-3 px-3">
                     <div class="test_desc">
                         <div>
@@ -485,7 +491,7 @@
     <!-- testimonial end -->
 
     <!-- brahman bhoj -->
-    <section class="brahmanbhoj py-3 my-5">
+    <section class="brahmanbhoj py-3 my-5" id="donate">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-lg-6">
@@ -499,7 +505,7 @@
                             below & become part of this Auspicious Opportunity.</p>
 
                         <div class="mt-4">
-                            <a href="" class="button "
+                            <a href="donation.html" class="button "
                                 style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Donate
                                     Now</span></a>
                         </div>
@@ -519,13 +525,13 @@
     <footer>
         <div class="footerdiv">
             <div class="mainheadingdiv mb-3 pt-5">
-                <h1 class="mb-0 pt-4">We're also here to teach you</h1>
+                <h1 class="mb-0 pt-4" id="careerr">We're also here to teach you</h1>
                 <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
                 <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe
                     maiores provident
                     excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
                 <div class="mt-4">
-                    <a href="" class="button"
+                    <a href="career.html" class="button"
                         style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Enroll
                             Now</span></a>
                 </div>
@@ -536,7 +542,7 @@
                 <div class="row gy-4">
                     <div class="col-lg-3 d-flex align-items-center justify-content-center text-center">
                         <div class="">
-                            <img src="web/images/sukho-removebg-preview.png" width="150" alt="">
+                            <img src="web/images/sukho-removebg-preview.png" width="150" onclick="location.href='index.html'" class="cursor" alt="">
                             <br>
                             <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
                         </div>
@@ -545,11 +551,11 @@
                         <div>
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Gallery</a></li>
-                                <li><a href="">Contact Us</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="javascript:void(0)">Services</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -557,11 +563,11 @@
                         <div>
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="">Puja</a></li>
-                                <li><a href="">Astrology</a></li>
-                                <li><a href="">Career</a></li>
-                                <li><a href="">Donation</a></li>
-                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="puja.html">Puja</a></li>
+                                <li><a href="astrology.html">Astrology</a></li>
+                                <li><a href="career.html">Career</a></li>
+                                <li><a href="donation.html">Donation</a></li>
+                                <li><a href="privacypolicy.html">Privacy & Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -576,6 +582,7 @@
                             <div class="iconss mt-4 d-flex gap-4">
                                 <i class="bi bi-whatsapp"></i>
                                 <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
                             </div>
                         </div>
                     </div>
@@ -583,7 +590,7 @@
             </div>
             <hr>
             <div class="text-center p-3 pt-0">
-                <span>© 2026 Shri Sukhodayaya Namah. All Right Reserved. | <a
+                <span>© 2026 Sukhoodaya. All Right Reserved. | <a
                         href="https://tssgtech.com/">Tssg-Tech</a></span>
             </div>
             <img src="web/images/shape.svg" class="footerimg" alt="">
@@ -593,6 +600,7 @@
     <!-- footer end -->
 
     <script src="web/js/script.js"></script>
+    <script src="web/js/appointment.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -606,7 +614,7 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
-            dots: false,
+            dots: true,
             arrows: false,
             responsive: [
                 {
