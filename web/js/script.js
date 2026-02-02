@@ -15,3 +15,8 @@ function hideMenu(){
 iconn.classList.toggle("active")
 sublistt.classList.toggle("active")
      }
+
+     // bi-whatsapp
+     document.querySelector(".bi-whatsapp").addEventListener("click",()=>{
+          window.open('//wa.me/9625325050','_blank')
+     })

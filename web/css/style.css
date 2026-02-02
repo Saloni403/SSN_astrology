@@ -358,7 +358,9 @@ object-fit: cover;
     position: relative;
     padding-left: 1rem;
 }
-
+.paradiv p{
+    margin-bottom: 0;
+}
 .paradiv::after {
     content: "";
     position: absolute;
@@ -568,8 +570,10 @@ footer h3 {
     background-color: #e7d130;
 }
 
+
 /* our packages */
-.row > [class*="col-"] {
+
+.ourpackagescard .row > [class*="col-"] {
     display: flex;
 }
 
@@ -737,4 +741,25 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8p
 
 .privacycontent ul {
     padding-left: 1.2rem;
+}
+
+/* career */
+.study_desc{
+  background-color: #f7fbfe;
+    background-size: cover;
+    border: 2px solid rgb(197, 196, 196);
+    padding: 1rem 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px, rgba(0, 0, 0, 0.05) 0px 8px 16px -8px;
+   border-radius: 10px;
+   transition: 0.3s;
+}
+.study_desc p{
+    margin-bottom: 0;
+}
+.study_desc:hover{
+    transform: translateY(-5px);
 }
