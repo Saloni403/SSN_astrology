@@ -21,7 +21,9 @@ ul {
     padding-left: 0 !important;
     margin-bottom: 0 !important;
 }
-
+ol{
+    padding-left: 1rem !important;
+}
 ul li {
     list-style: none;
 }
@@ -233,7 +235,8 @@ transition:transform 0.3s ease;
 }
 /* banmner */
 .bannerdiv {
-    background-image: url(../images/bannerimg.jpg);
+    background-image: url(../images/banner\ copy.jpg.jpeg);
+     /* background-image: url(../images/bannerimg.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -260,7 +263,7 @@ transition:transform 0.3s ease;
 }
 
 .bannerdiv h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .bimg_hand_bg {
@@ -384,7 +387,7 @@ object-fit: cover;
 }
 
 .yrofexp h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 @media (max-width:576px) {
@@ -564,7 +567,9 @@ footer h3 {
     color: #9d0902;
     position: relative;
     transition: all 0.3s;
+    cursor: pointer;
 }
+
 
 .iconss i:hover {
     background-color: #e7d130;
@@ -616,6 +621,11 @@ footer h3 {
     border-top: 2px solid #fff;
 cursor: pointer;
 }
+.ourpackagescard img{
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: top;
+}
 /* brahmanbhoj */
 .brahmanbhoj{
     background-color: #fdec00;
@@ -632,8 +642,12 @@ cursor: pointer;
   border: 2px solid #f8a01a;
   border-radius: 10px;
 }
-.gallerydiv .col-xl-3 > div img{
- transition: all 0.3s;
+
+.gallerydiv .col-xl-3 > div img {
+    transition: all 0.3s;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: top;
 }
 .gallerydiv .col-xl-3 > div:hover img{
 transform: scale(1.1);

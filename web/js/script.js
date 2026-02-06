@@ -18,5 +18,14 @@ sublistt.classList.toggle("active")
 
      // bi-whatsapp
      document.querySelector(".bi-whatsapp").addEventListener("click",()=>{
+         
           window.open('//wa.me/9625325050','_blank')
+     })
+      // bi-facebook
+     document.querySelector(".bi-facebook").addEventListener("click",()=>{
+          window.open('https://www.facebook.com/sukhoodaya/','_blank')
+     })
+      // bi-whatsapp
+     document.querySelector(".bi-whatsapp").addEventListener("click",()=>{
+          window.open('https://www.instagram.com/sukhoodaya/','_blank')
      })
