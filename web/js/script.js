@@ -16,16 +16,17 @@ iconn.classList.toggle("active")
 sublistt.classList.toggle("active")
      }
 
-     // bi-whatsapp
-     document.querySelector(".bi-whatsapp").addEventListener("click",()=>{
-         
-          window.open('//wa.me/9625325050','_blank')
-     })
-      // bi-facebook
-     document.querySelector(".bi-facebook").addEventListener("click",()=>{
-          window.open('https://www.facebook.com/sukhoodaya/','_blank')
-     })
-      // bi-whatsapp
-     document.querySelector(".bi-whatsapp").addEventListener("click",()=>{
-          window.open('https://www.instagram.com/sukhoodaya/','_blank')
-     })
+     function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+        pageLanguage: "en",
+        includedLanguages: "en,hi"
+    }, "google_translate_element");
+}
+
+function translateLang(lang) {
+    var select = document.querySelector(".goog-te-combo");
+    if (select) {
+        select.value = lang;
+        select.dispatchEvent(new Event("change"));
+    }
+}

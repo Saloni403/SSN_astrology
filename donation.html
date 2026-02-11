@@ -15,19 +15,27 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-   
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
 <body>
-
+<!-- google translator -->
+   <div id="google_translate_element" style="display:none; width: fit-content;"></div>
+<div class="langdiv">
+    <div class="container">
+<button class="langbtn" onclick="translateLang('en')">English</button>
+<button class="langbtn" onclick="translateLang('hi')">हिंदी</button>
+</div>
+</div>
 
     <!-- header start -->
     <div class="toppestnav">
         <div class="container">
             <div> <a href="tel:919625325050"><i class="bi bi-telephone"></i> +919625325050</a> &nbsp;
-            <a href="tel:919355119301"><i class="bi bi-telephone"></i> +919355119301</a></div>
-            
-            <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
+                <a href="tel:919355119301"><i class="bi bi-telephone"></i> +919355119301</a>
+            </div>
+
+            <a href="mailto:support@sukhoodaya.com"><i class="bi bi-envelope"></i> support@sukhoodaya.com</a>
         </div>
     </div>
     <hr style="color: rgba(255, 255, 255, 1); margin: 0;">
@@ -53,7 +61,7 @@
                         </li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="login.html" ><i class="bi bi-person-fill"></i></a></li>
+                        <li><a href="login.html"><i class="bi bi-person-fill"></i></a></li>
 
                     </ul>
                     <div class="d-lg-none d-flex gap-4">
@@ -74,7 +82,7 @@
         <ul>
             <li onclick="location.href='index.html'">Home</li>
             <li onclick="location.href='about.html'">About Us</li>
-            <li onclick="location.href='javascript.void(0)'" class="menudropdown" onclick="showMe()">Services <i
+            <li class="menudropdown" onclick="showMe()">Services <i
                     class="bi bi-caret-right-fill"></i>
 
             </li>
@@ -87,17 +95,19 @@
         </ul>
     </div>
     <!-- menu end -->
-
-   
-
+<a href="#donatenow">
+<img src="web/images/banner 45 copy.jpg.jpeg"
+        width="100%" alt="">
+</a>
     <!-- Appointment form -->
-    <section class="loginform my-sm-5">
+    <section class="loginform my-sm-5" id="donatenow">
         <div class="container p-3">
-           <div class="mainheadingdiv mb-3">
+            <div class="mainheadingdiv mb-3">
                 <h1 class="greentext mb-0">Donation Form</h1>
                 <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta saepe maiores provident
-                    excepturi sequi eum pariatur voluptatibus dolor! Quibusdam?</p>
+                <p>Brahman Bhoj is a sacred ritual of <b>serving food to Brahmins, believed to bring divine blessings,
+                    peace, and prosperity.</b> It is performed on auspicious occasions to express gratitude and seek
+                    spiritual merit.</p>
             </div>
 
             <div>
@@ -106,8 +116,8 @@
                         <input type="text" placeholder="Name" name="" id="">
                         <input type="email" placeholder="Email">
                     </div>
-                     
-                     <div class="d-flex flex-sm-row flex-column align-items-center  justify-content-center w-100 gap-3">
+
+                    <div class="d-flex flex-sm-row flex-column align-items-center  justify-content-center w-100 gap-3">
                         <input type="tel" placeholder="Phone Number" name="" id="">
                         <select name="" id="noofbrahman">
                             <option value="Number of Brahmans">Number of Brahmans</option>
@@ -117,30 +127,34 @@
                             <option value="21">21</option>
                             <option value="51">51</option>
                         </select>
-                        <input type="number" placeholder="Donation Amount in rupees (250 for 1)" value="750" name="" id="">
-                     </div>   
-                     <textarea name="" id="" rows="1" placeholder="Address"></textarea>
-                     <textarea name="" id="" rows="5" placeholder="Message"></textarea>
-                      
+                        <input type="number" placeholder="Donation Amount in rupees (250 for 1)" value="750" name=""
+                            id="">
+                    </div>
+                    <textarea name="" id="" rows="1" placeholder="Address"></textarea>
+                    <textarea name="" id="" rows="5" placeholder="Message"></textarea>
+
                 </form>
                 <div class="mt-4">
-                            <a href="" class="button "
-                                style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Submit
-                                    </span></a>
-                        </div>
+                    <a href="" class="button "
+                        style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Submit
+                        </span></a>
+                </div>
             </div>
         </div>
     </section>
 
- 
+
     <!-- footer start -->
-     <footer>
+    <footer>
         <div class="footerdiv">
             <div class="mainheadingdiv mb-3 pt-5">
                 <h1 class="mb-0 pt-4" id="careerr">We're also here to teach you</h1>
                 <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
-                <p class="text-white">At Sukhoodaya, we guide you in the sacred sciences of astrology. We offer complete teaching in Vedic Astrology, Tantra, Mantra, and Yantra Vidya, explained step-by-step by experienced gurus.
-Whether you are a beginner or seeking deeper spiritual knowledge, we are here to support your learning journey.</p>
+                <p class="text-white">At Sukhoodaya, we guide you in the sacred sciences of astrology. We offer complete
+                    teaching in Vedic Astrology, Tantra, Mantra, and Yantra Vidya, explained step-by-step by experienced
+                    gurus.
+                    Whether you are a beginner or seeking deeper spiritual knowledge, we are here to support your
+                    learning journey.</p>
                 <div class="mt-4">
                     <a href="career.html" class="button"
                         style="color: #fff; background: linear-gradient(90deg, rgb(244, 170, 54) 0%, rgb(243, 115, 53) 100%);"><span>Enroll
@@ -154,9 +168,9 @@ Whether you are a beginner or seeking deeper spiritual knowledge, we are here to
                     <div class="col-lg-3 d-flex align-items-center justify-content-center text-center">
                         <div class="">
                             <img src="web/images/sukho-removebg-preview.png" width="150"
-                                onclick="location.href='index.html'" class="cursor" alt="">
+                                onclick="location.href='index.html'" class="cursor mb-2" alt="">
                             <br>
-                            <span>Om Shri Shukoodaya Namah:</span>
+                            <span>ॐ श्री सुखोदयायै नमः</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -189,13 +203,14 @@ Whether you are a beginner or seeking deeper spiritual knowledge, we are here to
                             <div class="d-flex flex-column">
                                 <a href="tel:919625325050"><i class="bi bi-telephone"></i> +919625325050</a>
                                 <a href="tel:919355119301"><i class="bi bi-telephone"></i> +919355119301</a>
-                                <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
-                                <a href="https://maps.app.goo.gl/iFMDLhd43i1Mf1rJA"><i class="bi bi-geo-alt"></i> har har mahadev mandir, bairagi camp, kankhal - haridwar</a>
+                                <a href="mailto:support@sukhoodaya.com"><i class="bi bi-envelope"></i> support@sukhoodaya.com</a>
+                                <a href="https://maps.app.goo.gl/iFMDLhd43i1Mf1rJA"><i class="bi bi-geo-alt"></i> har
+                                    har mahadev mandir, bairagi camp, kankhal - haridwar</a>
                             </div>
                             <div class="iconss mt-4 d-flex gap-4">
-                                <i class="bi bi-whatsapp"></i>
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-instagram"></i>
+                                <a href="https://wa.me/9625325050?text=I%20want%20to%20book%20a%20puja" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://www.facebook.com/sukhoodaya/" target="_blank"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/sukhoodaya/" target="_blank"><i class="bi bi-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -216,7 +231,7 @@ Whether you are a beginner or seeking deeper spiritual knowledge, we are here to
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-   
+
 </body>
 
 </html>

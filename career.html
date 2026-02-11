@@ -15,19 +15,27 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-   
+   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
 <body>
 
-
+<!-- google translator -->
+   <div id="google_translate_element" style="display:none; width: fit-content;"></div>
+<div class="langdiv">
+    <div class="container">
+<button class="langbtn" onclick="translateLang('en')">English</button>
+<button class="langbtn" onclick="translateLang('hi')">हिंदी</button>
+</div>
+</div>
     <!-- header start -->
     <div class="toppestnav">
         <div class="container">
             <div> <a href="tel:919625325050"><i class="bi bi-telephone"></i> +919625325050</a> &nbsp;
-            <a href="tel:919355119301"><i class="bi bi-telephone"></i> +919355119301</a></div>
-            
-            <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
+                <a href="tel:919355119301"><i class="bi bi-telephone"></i> +919355119301</a>
+            </div>
+
+            <a href="mailto:support@sukhoodaya.com"><i class="bi bi-envelope"></i> support@sukhoodaya.com</a>
         </div>
     </div>
     <hr style="color: rgba(255, 255, 255, 1); margin: 0;">
@@ -74,7 +82,7 @@
         <ul>
             <li onclick="location.href='index.html'">Home</li>
             <li onclick="location.href='about.html'">About Us</li>
-            <li onclick="location.href='javascript.void(0)'" class="menudropdown" onclick="showMe()">Services <i
+            <li class="menudropdown" onclick="showMe()">Services <i
                     class="bi bi-caret-right-fill"></i>
 
             </li>
@@ -94,8 +102,8 @@
              <div class="mainheadingdiv mb-3">
                 <h1 class="greentext mb-0">Start Your Career With Us</h1>
                 <img src="web/images/Screenshot__93_-removebg-preview.png" width="250" alt="">
-                <p>offering complete
-                    teaching in Vedic Astrology, Tantra, Mantra, and Yantra Vidya, explained step-by-step by experienced
+                <p>Offering complete
+                    teaching in <b>Vedic Astrology, Tantra, Mantra, and Yantra Vidya,</b> explained step-by-step by experienced
                     gurus.</p>
             </div>
             <div class="row g-3">
@@ -128,6 +136,39 @@
                         <div>
                         <p>-> Saral, prabhavi aur parinaamdayak upaay.</p>
                         <p>-> Grih, dhan, vivaah aur career sambandhi samasyaon ka margdarshan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="study_desc">
+                        <img src="web/images/vishuddha.png" width="70" alt="">
+                        <h3 class="greentext">Tantra Vidya</h3>
+                        <div>
+                        <p>-> Tantra shastra ke gupt gyaan aur vidhiyaan.</p>
+                        <p>-> Shakti sadhana, raksha aur badha nivaran ke upaay.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="study_desc">
+                        <img src="web/images/bead.png" width="70" alt="">
+                        <h3 class="greentext">Mantra Vidya</h3>
+                        <div>
+                        <p>-> Vedic aur tantrik mantron ka shuddh ucharan.</p>
+                        <p>-> Mantra sadhana dwara manokamna siddhi aur shanti.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="study_desc">
+                        <img src="web/images/shape.png" width="70" alt="">
+                        <h3 class="greentext">Yantra Vidya</h3>
+                        <div>
+                        <p>-> Shakti se yukt yantron ka vidhi-purvak upyog.</p>
+                        <p>-> Dhan, vyapar, grih aur grah dosh nivaran ke liye yantra.</p>
                         </div>
                     </div>
                 </div>
@@ -222,9 +263,9 @@ Whether you are a beginner or seeking deeper spiritual knowledge, we are here to
                     <div class="col-lg-3 d-flex align-items-center justify-content-center text-center">
                         <div class="">
                             <img src="web/images/sukho-removebg-preview.png" width="150"
-                                onclick="location.href='index.html'" class="cursor" alt="">
+                                onclick="location.href='index.html'" class="cursor mb-2" alt="">
                             <br>
-                            <span>Om Shri Shukoodaya Namah:</span>
+                            <span>ॐ श्री सुखोदयायै नमः</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -257,13 +298,14 @@ Whether you are a beginner or seeking deeper spiritual knowledge, we are here to
                             <div class="d-flex flex-column">
                                 <a href="tel:919625325050"><i class="bi bi-telephone"></i> +919625325050</a>
                                 <a href="tel:919355119301"><i class="bi bi-telephone"></i> +919355119301</a>
-                                <a href=""><i class="bi bi-envelope"></i> support@website.com</a>
-                                <a href="https://maps.app.goo.gl/iFMDLhd43i1Mf1rJA"><i class="bi bi-geo-alt"></i> har har mahadev mandir, bairagi camp, kankhal - haridwar</a>
+                                <a href="mailto:support@sukhoodaya.com"><i class="bi bi-envelope"></i> support@sukhoodaya.com</a>
+                                <a href="https://maps.app.goo.gl/iFMDLhd43i1Mf1rJA"><i class="bi bi-geo-alt"></i> har
+                                    har mahadev mandir, bairagi camp, kankhal - haridwar</a>
                             </div>
                             <div class="iconss mt-4 d-flex gap-4">
-                                <i class="bi bi-whatsapp"></i>
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-instagram"></i>
+                                <a href="https://wa.me/9625325050?text=I%20want%20to%20book%20a%20puja" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://www.facebook.com/sukhoodaya/" target="_blank"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/sukhoodaya/" target="_blank"><i class="bi bi-instagram"></i></a>
                             </div>
                         </div>
                     </div>
